@@ -1,0 +1,273 @@
+:root {
+    --blue-500: #314AF8;
+    --blue-400: #EBEDFF;
+    --black-500: #212B55;
+    --black-400: #B8BBC8;
+    --black-300: #E0E1E7;
+    --black-200: #EEEEF2;
+    --white-500: #FFFFFF;
+}
+
+@font-face {
+    font-family: 'FunnelSans';
+    src: url(Funnel_Sans/FunnelSans-VariableFont_wght.ttf) format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black-200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1024px;
+    width: 100%;
+    font-family: "FunnelSans";
+}
+
+.sidebar-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    width: 392px;
+    background-color: var(--white-500);
+    border-top: 1.5px solid var(--black-300);
+    border-right: 1.5px solid var(--black-300);
+    border-left: 1.5px solid var(--black-300);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.dropdown-icon {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border: 1.5px solid var(--black-300);
+    border-radius: 8px;
+}
+
+.sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    width: 392px;
+    background-color: var(--white-500);
+    border: 1.5px solid var(--black-300);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.main-frame {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+}
+
+.main-text {
+    color: var(--black-400);
+    font-family: 'FunnelSans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.36px;
+}
+
+.overview-frame {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 8px;
+    background-color: var(--blue-400);
+}
+
+.overview-text {
+    color: var(--black-500);
+    font-family: 'FunnelSans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.36px;
+}
+
+.overview-icon {
+    color: var(--blue-500)
+}
+
+.exchange-frame {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 8px;
+}
+
+.exchange-text {
+    color: var(--black-400);
+    font-family: 'FunnelSans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.36px;
+}
+
+.exchange-icon {
+    color: var(--black-400)
+}
+
+.analytics-frame {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 8px;
+}
+
+.analytics-text {
+    color: var(--black-400);
+    font-family: 'FunnelSans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.36px;
+}
+
+.analytics-icon {
+    color: var(--black-400)
+}
+
+.portfolio-frame {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 8px;
+}
+
+.portfolio-text {
+    color: var(--black-400);
+    font-family: 'FunnelSans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.36px;
+}
+
+.portfolio-icon {
+    color: var(--black-400)
+}
+
+.exchange-frame:hover {
+    background-color: var(--blue-400);
+
+    .exchange-text {
+        color: var(--black-500);
+    }
+
+    .exchange-icon {
+        color: var(--blue-500);
+    }
+}
+
+.analytics-frame:hover {
+    background-color: var(--blue-400);
+
+    .analytics-text {
+        color: var(--black-500);
+    }
+
+    .analytics-icon {
+        color: var(--blue-500);
+    }
+}
+
+.portfolio-frame:hover {
+    background-color: var(--blue-400);
+
+    .portfolio-text {
+        color: var(--black-500);
+    }
+
+    .portfolio-icon {
+        color: var(--blue-500);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
